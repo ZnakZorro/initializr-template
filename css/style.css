@@ -1,3 +1,10 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+
 /* HTML5 ✰ Boilerplate
  * ==|== normalize ==========================================================
  */
@@ -8,7 +15,6 @@ audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-body { margin: 0; font-size: 13px; line-height: 1.231; }
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
@@ -68,7 +74,7 @@ td { vertical-align: top; }
     Author: Jonathan Verrecchia
    =================================================== */
 
-body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
+body{ font:15px/22px Verdana, Helvetica, Helvetica Neue, Arial, sans-serif;  margin:0;}
 
 .wrapper{
 	width:90%;
