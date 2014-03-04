@@ -1,0 +1,15 @@
+.header-container, .footer-container, .main aside {
+background: #369;
+}
+.header-container {
+border-bottom: 20px solid #036;
+}
+.footer-container, .main aside {
+border-top: 20px solid #036;
+}
+nav a {
+color: white;
+background: #258;
+}
+
+
